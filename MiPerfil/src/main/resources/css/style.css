@@ -1,0 +1,52 @@
+.contenedor {
+    -fx-background-color: #f4f6f8;
+}
+
+.titulo {
+    -fx-font-size: 26px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1f2937;
+    -fx-padding: 0 0 10 0;
+}
+
+.text-field,
+.combo-box {
+    -fx-pref-height: 40px;
+    -fx-font-size: 14px;
+}
+
+.btn-mostrar {
+    -fx-background-color: #2563eb;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-pref-width: 200px;
+    -fx-pref-height: 40px;
+    -fx-cursor: hand;
+}
+
+.btn-mostrar:hover {
+    -fx-background-color: #1d4ed8;
+}
+
+.btn-limpiar {
+    -fx-background-color: #e5e7eb;
+    -fx-text-fill: #374151;
+    -fx-font-weight: bold;
+    -fx-pref-width: 200px;
+    -fx-pref-height: 40px;
+    -fx-cursor: hand;
+}
+
+.btn-limpiar:hover {
+    -fx-background-color: #d1d5db;
+}
+
+.resultado {
+    -fx-background-color: white;
+    -fx-padding: 18px;
+    -fx-font-size: 15px;
+    -fx-text-fill: #374151;
+    -fx-border-color: #e5e7eb;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+}
