@@ -1,0 +1,38 @@
+.sidebar {
+    -fx-background-color: #438e62;
+}
+
+.main-panel {
+    -fx-background-color: #f6ebd4;
+}
+
+.logo-text {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+}
+
+.nav-item {
+    -fx-text-fill: white;
+    -fx-font-style: italic;
+    -fx-font-size: 14px;
+}
+
+.welcome-header {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1e1e1e;
+}
+
+.table-view {
+    -fx-background-color: #e0e0e0;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #438e62;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}

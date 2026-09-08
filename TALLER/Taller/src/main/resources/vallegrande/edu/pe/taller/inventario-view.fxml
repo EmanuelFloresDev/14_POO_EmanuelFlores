@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane stylesheets="@styles.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vallegrande.edu.pe.taller.controller.InventarioController">
+    <left>
+        <VBox prefWidth="200.0" styleClass="sidebar" spacing="20.0" BorderPane.alignment="CENTER">
+            <padding>
+                <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+            </padding>
+            <children>
+                <Label styleClass="logo-text" text="STOCKMASTER PRO" />
+                <Label styleClass="nav-item" text="PRODUCTOS" />
+                <Label styleClass="nav-item" text="MOVIMIENTOS" />
+                <Label styleClass="nav-item" text="REPORTES" />
+                <VBox VBox.vgrow="ALWAYS" />
+                <Label styleClass="nav-item" text="LOG OUT" />
+            </children>
+        </VBox>
+    </left>
+    <center>
+        <VBox styleClass="main-panel" spacing="20.0" BorderPane.alignment="CENTER">
+            <padding>
+                <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+            </padding>
+            <children>
+                <HBox alignment="CENTER_LEFT" spacing="10.0">
+                    <children>
+                        <Label styleClass="welcome-header" text="Bienvenido a tu inventario" />
+                    </children>
+                </HBox>
+                <TableView fx:id="tablaProductos" VBox.vgrow="ALWAYS">
+                    <columns>
+                        <TableColumn fx:id="colNombre" prefWidth="150.0" text="Nombre" />
+                        <TableColumn fx:id="colDescripcion" prefWidth="200.0" text="Descripción" />
+                        <TableColumn fx:id="colPrecioU" prefWidth="80.0" text="Precio.U" />
+                        <TableColumn fx:id="colStock" prefWidth="70.0" text="Stock" />
+                        <TableColumn fx:id="colPrecioT" prefWidth="90.0" text="Precio.T" />
+                    </columns>
+                </TableView>
+            </children>
+        </VBox>
+    </center>
+</BorderPane>
