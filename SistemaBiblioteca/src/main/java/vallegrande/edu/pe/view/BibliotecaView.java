@@ -14,8 +14,10 @@ public class BibliotecaView {
         System.out.println("1. Registrar Libro");
         System.out.println("2. Listar Libro");
         System.out.println("3. Buscar Libro");
+
         System.out.println("4. Registrar Autor");
         System.out.println("5. Listar Autores");
+
         System.out.println("6. Salir");
         System.out.println("Seleccione una opcion");
     }

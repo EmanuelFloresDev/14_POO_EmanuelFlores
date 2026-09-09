@@ -10,10 +10,12 @@ public class AutorController {
         autores = new ArrayList<>();
     }
 
+    //Registrar
     public void registrarAutor(Autor autor) {
         autores.add(autor);
     }
 
+    //Listar
     public void listarAutores() {
         for (Autor autor : autores) {
             System.out.println("ID: " + autor.getId());
